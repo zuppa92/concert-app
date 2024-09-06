@@ -1,0 +1,35 @@
+/* src/styles/Home.css */
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  padding: 20px;
+  background-color: #1e1e1e; /* Consistent gray color with the rest of the app */
+}
+
+.homepage-image {
+  max-width: 90%; /* Limit the image width to avoid it being too large */
+  height: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  object-fit: contain; /* Ensures the image fits within its container while maintaining aspect ratio */
+}
+
+h1 {
+  color: #ff7043 !important; /* Coral color for consistency, forced with !important */
+  font-size: 36px; /* Make the heading prominent */
+  margin-bottom: 20px;
+}
+
+p {
+  color: #f0f0f0;
+  font-size: 18px;
+  margin-top: 20px;
+  max-width: 600px; /* Limit the width of the paragraph to improve readability */
+  line-height: 1.6; /* Improve the readability of the paragraph */
+}

@@ -1,0 +1,48 @@
+.navbar {
+  background-color: #2b2b2b; /* Darker gray to differentiate from the background */
+  color: #f0f0f0;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add a shadow for depth */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar a {
+  color: #f0f0f0; /* Standard text color */
+  margin-right: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar a:hover, .navbar a.active-link {
+  background-color: #ff7043; /* Coral background on hover */
+  color: #3b3232; /* White text on hover */
+}
+
+.logout-button {
+  background-color: #ff7043;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  margin-left: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #ff8a50; /* Slightly brighter coral on hover */
+}
+
+.navbar span {
+  margin-right: 15px;
+  color: #f0f0f0; /* Change the welcome message color to light gray */
+  font-weight: bold;
+}

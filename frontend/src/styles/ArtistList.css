@@ -1,0 +1,131 @@
+.artist-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #2b2b2b;
+    color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6);
+}
+
+.artist-title {
+    color: #ff7043;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.artist-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Artist Boxes */
+.artist-box {
+    background-color: #1e1e1e;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    width: 100%;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Music Information Styling */
+.music-info-box {
+    background-color: #262626;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+/* Tables for Music Info */
+.artist-info-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 10px; /* Add space between rows */
+    margin: 20px 0;
+    color: #f0f0f0;
+}
+
+.artist-info-table th,
+.artist-info-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #444;
+    border-radius: 8px;
+}
+
+.artist-info-table th {
+    background-color: #ff7043;
+    color: #1e1e1e;
+    font-weight: bold;
+}
+
+.artist-info-table td {
+    background-color: #2b2b2b;
+}
+
+/* Lists for Similar Artists, Tracks, and Albums */
+.similar-artists-list,
+.top-tracks-list,
+.top-albums-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 15px 0;
+    background-color: #262626;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.similar-artists-list li,
+.top-tracks-list li,
+.top-albums-list li {
+    padding: 10px 0;
+    border-bottom: 1px solid #444;
+    color: #f0f0f0;
+}
+
+.similar-artists-list li:last-child,
+.top-tracks-list li:last-child,
+.top-albums-list li:last-child {
+    border-bottom: none; /* Remove bottom border from last item */
+}
+
+.artist-link {
+    color: #ff7043;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.artist-link:hover {
+    color: #ff8a50;
+    text-decoration: underline;
+}
+
+.artist-details {
+    margin-top: 30px;
+}
+
+/* Box separation */
+.artist-box + .artist-box {
+    margin-top: 20px;
+}
+
+/* Enhance text readability */
+p {
+    line-height: 1.6;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
